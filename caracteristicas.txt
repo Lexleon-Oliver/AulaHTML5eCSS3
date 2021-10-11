@@ -1,0 +1,25 @@
+Estrutura básica 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta>
+        <title></title>
+    <head>
+    <body>
+    </body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+<section> Secão genérica de conteúdos como uma lista de artigos
+
+<header> Cabeçalho da página ou de partes da página como de uma section
+
+<article> Conteúdo relevante dentro da página, como um artigo de um blog
+
+<aside> Conteúdo relacionado ao conteúdo principal da página,como biografia de um autor, links relacionados
+
+<footer> rodapé da página ou de partes da página
+
+<h1>-<h6> Representa a importância de um título na sua página. h1= título principal, h2 título de uma section, h3 título de um artigo. Só pode haver
+um h1 por página
