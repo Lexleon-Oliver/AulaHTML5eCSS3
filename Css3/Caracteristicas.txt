@@ -1,0 +1,122 @@
+"Você cria regras de estilo para elementos ou grupos de elementos"
+
+Seletores a, p, h1, h3{ //são apenas elementos html
+    color: blue; //declaração; formada por propriedade e valor
+    font-size: 14px;
+}
+
+ID x Classe
+
+Em html você declara seu id com a palavra id e sua classe com a palavra classe.
+
+<header id="header" class="header"></header>
+<header class="header"></header>
+
+No Css uma classe é precedida por um ponto e um id por um hash
+
+.header{
+    padding:10px;
+}
+
+#header{
+    padding:15px;
+}
+
+ID so pode ser usado uma vez na página
+---------------------------------------------------------------------------------
+Box Model
+
+    ------------------------------------------------
+        margin
+        ____________________________________________
+            Border
+            ----------------------------------------
+                padding
+                ____________________________________
+                    content
+                 ___________________________________
+            
+             ---------------------------------------
+         ___________________________________________
+
+     -----------------------------------------------
+
+margin = espaçamento entre elementos
+Border = circunda o padding e o conteúdo
+padding = espaçamento entre a borda e o conteúdo
+content= é o que seu bloco representa(texto, imagem ou vídeo)
+
+.post{
+    padding: 10px 5px; //primeiro valor para partes superior e inferior e segundo
+}                      //para as partes direita e esquerda
+
+.post{
+    padding: 15px 10px 5px 0; //um valor para cada parte. Topo, direita, baixo e 
+}                             //esquerda respectivamente
+
+DICA: Quando houver valor zero não necessita usar unidade
+
+.post{
+    padding-top: 15px;    //mais usado quando possui 3 lados iguais e apenas 1
+    padding-right: 10px;  //diferente. usando margin ou padding com apenas um 
+    padding-bottom: 5px;  //valor e usamos a propriedade do lado especifico a 
+    padding-left: 0;      //alterar
+}
+
+Background = tambem é um atalho para varias outras propriedades
+.post{
+    background-color: green;
+    background-image: url("bg.png");
+    background-position: top;
+}
+
+.post{
+    background-color: green;
+    background-color: #008800
+    background: #008800;
+    background: green;
+}
+
+border pode ter 3 propriedades (Largura,cor,estilo)
+largura pode ser representada por pixels, cm, milimetros...
+cor pode ser representada pelo nome em ingles ou valor hexadecimal
+estilo pode ser sólido, pontilhado, tracejado...
+
+.post{
+    border: 3px solid blue;
+    border-top: 2px dotted green;
+    border-right: 4px dashed pink;
+}
+
+propriedade para cada lado
+.post{
+    border-top: 2px dotted green;
+    border-right: 4px dashed pink;
+    border-bottom: 1px solid purple;
+    border-left 4px dotted cyan;
+}
+
+propriedades especificas para borda
+
+.post{
+    border 3px solid #505050;
+}
+
+.post{
+    border-width: 3px;
+    border-color: #505050
+    border-style:solid
+}
+
+.post{
+    border-top-width: 3px;
+    border-top-color: blue;
+    border-top-style: solid;
+}
+
+Border-radius
+
+border-radius: 10px;
+border-radius: 50%;
+border-radius: 10% 20%;
+border-radius: 10% 20% 15% 22%;
