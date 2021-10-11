@@ -23,3 +23,39 @@ Estrutura básica
 
 <h1>-<h6> Representa a importância de um título na sua página. h1= título principal, h2 título de uma section, h3 título de um artigo. Só pode haver
 um h1 por página
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+<h1> Título da página </h1>
+
+<h2> Título da seção </h2>
+
+<h3> Título de artigo </h3>
+
+<p> Conteúdo do artigo </p> Representa parágrafo e suporta textos, imagens, videos, códigos e varios tipos de conteúdos
+
+<a> Link </a> Âncora que interliga vários conteúdos na WEB
+
+<a href="www.linkedin.com/in/alex-oliveira-986899109/">Linkedin</a> Hyperlink para onde a âncora aponta. Pode ser um conteúdo no seu site ou em um 
+site externo, emails e telefones.
+
+<a href="mailto:lexleonmg@gmail.com>E-mail</a>
+
+<a target="_blank">Link</a>
+
+<img>
+
+<img src="img/avatar.jpg"> Obrigatório. src guarda o caminho da imagem, podendo ser uma imagem de dentro do próprio site ou 
+de algum outro lugar.
+
+<img alt="Foto de Lex Oliver"> Não obrigatório mas altamente recomendado para acessibilidade. Mostra a descrição da foto quando ela não é carregada 
+e leitores de tela usam essa descrição.
+
+<ul> Representa uma lista onde a ordem dos itens não são importantes
+Item 1
+Item 2
+
+<ol> Representa uma lista onde a ordem dos itens são importantes. Representados por números, letras ou algarismos romanos
+1. Item 1
+2. Item 3
+
+<li> Itens dessas listas
